@@ -1,0 +1,41 @@
+
+<head>
+  <meta charset="utf-8"/>
+  <title>MY APP!!!!!!</title>
+
+   <style>
+     body {
+       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13aXG4oRaMIpWRn0-7t9AaY0zfV_zjboFWOihO7KGECM4RyI3wQ");
+     }
+   </style>
+</head>
+
+<body>
+  <br/><br/>
+  <h1 style="font-size:500%; text-align:center; color: blue;"><%= @game.player_1.name %> vs. <%= @game.player_2.name %></h1>
+<br/>
+<h3 style="font-size:200%; text-align:center; color: blue">Are you ready?!</h3>
+
+<form action="/player_chose" method="post">
+<div style ="text-align: center; font-size: 150%; color: green;">
+     <label for="rps"> <b><%= @game.player_1.name %></b>
+      <select name="rps_player_1">
+       <option value="rock">rock</option>
+       <option value="paper">paper</option>
+       <option value="scissors">scissors</option>
+      </select>
+     </label>
+
+     <label for="rps"> <b><%= @game.player_2.name %></b>
+      <select name="rps_player_2">
+       <option value="rock">rock</option>
+       <option value="paper">paper</option>
+       <option value="scissors">scissors</option>
+      </select>
+     </label>
+     <br/><br/>
+     <input style="width: 25%;" type="submit" value="Check score">
+</div>
+</form>
+
+</body>
