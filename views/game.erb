@@ -4,25 +4,31 @@
   <title>MY APP!!!!!!</title>
 
    <style>
-     body {
-       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13aXG4oRaMIpWRn0-7t9AaY0zfV_zjboFWOihO7KGECM4RyI3wQ");
-     }
+
    </style>
 </head>
 
-<body>
-  <br/><br/>
-  <h1 style="font-size:500%; text-align:center; color: blue;"><%= @game.player_1.name %> vs. <%= @game.player_2.name %></h1>
+<body style="background-color:black;">
+
+  <body style="background-color:black;">
+    <embed src="http://www.moviesoundclips.net/misc1/msthemes/centuryfox.mp3"
+  width="0" height="0" autostart="true" loop="false">
+  </embed>
+  <br/>
+<h1 style="font-size:500%; text-align:center; color: white;"><%= @game.score_player_1 %>    SCORE    <%= @game.score_player_2 %></h1>
+  <h1 style="font-size:500%; text-align:center; color: white;"><%= @game.player_1.name %> vs. <%= @game.player_2.name %></h1>
 <br/>
-<h3 style="font-size:200%; text-align:center; color: blue">Are you ready?!</h3>
+<h3 style="font-size:200%; text-align:center; color: white">Are you ready?!</h3>
 
 <form action="/player_chose" method="post">
-<div style ="text-align: center; font-size: 150%; color: green;">
+<div style ="text-align: center; font-size: 150%; color: white;">
      <label for="rps"> <b><%= @game.player_1.name %></b>
       <select name="rps_player_1">
        <option value="rock">rock</option>
        <option value="paper">paper</option>
        <option value="scissors">scissors</option>
+       <%# <option value="scissors">lizard</option>
+       <option value="scissors">spock</option> %>
       </select>
      </label>
 
@@ -31,6 +37,8 @@
        <option value="rock">rock</option>
        <option value="paper">paper</option>
        <option value="scissors">scissors</option>
+       <%# <option value="scissors">lizard</option>
+       <option value="scissors">spock</option> %>
       </select>
      </label>
      <br/><br/>

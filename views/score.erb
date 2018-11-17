@@ -3,17 +3,21 @@
   <title>MY APP!!!!!!</title>
 
    <style>
-     body {
-       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13aXG4oRaMIpWRn0-7t9AaY0zfV_zjboFWOihO7KGECM4RyI3wQ");
-     }
+
    </style>
 </head>
 
-<body>
+<body style="background-color:black;">
+  <embed src="http://odgłosy.pl/odglosy/oklaski.mp3"
+width="0" height="0" autostart="true" loop="false">
+</embed>
+  <h1 style="font-size:500%; text-align:center; color: white;">The winner is !</h1>
 
-  <h1 style="font-size:500%; text-align:center; color: blue;">The winner is !</h1>
-<br/> <br/>
-<h1 style="font-size:900%; text-align:center; color: black;"> <%= $game.result($player_1_input, $player_2_input).name %> </h1>
+<h1 style="font-size:500%; text-align:center; color: white;"> <%= $game.result($player_1_input, $player_2_input).name %> </h1>
+
+<div style ="text-align: center;">
+<img src="https://vignette.wikia.nocookie.net/undertale/images/1/16/Sans_Dance.gif/revision/latest?cb=20160909003010&path-prefix=es" alt="HTML Letters" width="320" height="250">
+</div>
 
 <div style ="text-align: center;">
 <a href="/game"><input style="width: 35%;" type="submit" value="PRESS HERE  FOR ANOTHER GO !"></a>
