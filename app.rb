@@ -2,11 +2,9 @@ require 'sinatra/base'
 require './lib/game'
 require './lib/players'
 
-
 class Rps < Sinatra::Base
 
   get '/' do
-    "hello"
     erb :index
   end
 
@@ -27,7 +25,7 @@ class Rps < Sinatra::Base
     if $player_1_input == $player_2_input
       erb :draw
     else
-     erb :score
+      erb :score
     end
   end
 

@@ -11,7 +11,6 @@ require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
 
-
 # tell Capybara about our app class
 Capybara.app = Rps
 

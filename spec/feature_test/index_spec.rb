@@ -13,16 +13,16 @@ feature 'before game' do
 end
 
 feature 'before game' do
- scenario 'player name' do
-   visit('/')
-   expect(page).to have_content "Player 1 name :"
- end
+  scenario 'player name' do
+    visit('/')
+    expect(page).to have_content "Player 1 name :"
+  end
 end
 
 
 feature 'before game' do
- scenario 'player name' do
-   visit('/')
-   expect(page).to have_content "Player 2 name :"
- end
+  scenario 'player name' do
+    visit('/')
+    expect(page).to have_content "Player 2 name :"
+  end
 end
