@@ -6,6 +6,8 @@
   ruby app.rb
 ```
 
+![Pictures of UI](img/rps.png)
+
 ## Deployed on Heroku
 
 [Heroku](https://acebook-unicorns.herokuapp.com/)
