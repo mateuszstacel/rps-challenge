@@ -1,7 +1,7 @@
 # RPS Challenge
 #### how to run it ?
 
--Please clone this repo and then run :
+- Please clone this repo and then run :
 ```
   ruby app.rb
 ```
