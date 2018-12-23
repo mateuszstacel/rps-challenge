@@ -10,7 +10,7 @@
 
 ## Deployed on Heroku
 
-[Heroku](https://acebook-unicorns.herokuapp.com/)
+[Heroku](https://rock--paper-scissors-app.herokuapp.com/)
 
 Task
 ----
