@@ -1,10 +1,4 @@
 # RPS Challenge
-#### how to run it ?
-
-- Please clone this repo and then run :
-```
-  ruby app.rb
-```
 
 ![Pictures of UI](img/rps.png)
 
