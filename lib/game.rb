@@ -30,34 +30,6 @@ class Game
       @score_player_1 += 1
       @players.first
 
-  # elsif (player_1_input == "rock" && player_2_input == "lizard")
-  #   @score_player_1 += 1
-  #   @players.first
-  #
-  # elsif (player_1_input == "lizard" && player_2_input == "paper")
-  #   @score_player_1 += 1
-  #   @players.first
-  #
-  # elsif (player_1_input == "lizard" && player_2_input == "spock")
-  #   @score_player_1 += 1
-  #   @players.first
-  #
-  # elsif (player_1_input == "spock" && player_2_input == "rock")
-  #   @score_player_1 += 1
-  #   @players.first
-  #
-  # elsif (player_1_input == "spock" && player_2_input == "paper")
-  #   @score_player_1 += 1
-  #   @players.first
-  #
-  # elsif (player_1_input == "spock" && player_2_input == "scissors")
-  #   @score_player_1 += 1
-  #   @players.first
-  #
-  # elsif (player_1_input == "scissors" && player_2_input == "lizard")
-  #   @score_player_1 += 1
-  #   @players.first
-
     elsif (player_2_input == "rock" && player_1_input == "scissors")
       @score_player_2 += 1
       @players.last
@@ -69,34 +41,6 @@ class Game
     elsif (player_2_input == "scissors" && player_1_input == "paper")
       @score_player_2 += 1
       @players.last
-
-  # elsif (player_1_input == "lizard" && player_2_input == "rock")
-  #   @score_player_2 += 1
-  #   @players.last
-  #
-  # elsif (player_1_input == "paper" && player_2_input == "lizard")
-  #   @score_player_2 += 1
-  #   @players.last
-  #
-  # elsif (player_1_input == "spock" && player_2_input == "lizard")
-  #   @score_player_2 += 1
-  #   @players.last
-  #
-  # elsif (player_1_input == "rock" && player_2_input == "spock")
-  #   @score_player_2 += 1
-  #   @players.last
-  #
-  # elsif (player_1_input == "paper" && player_2_input == "spock")
-  #   @score_player_2 += 1
-  #   @players.last
-  #
-  # elsif (player_1_input == "scissors" && player_2_input == "spock")
-  #   @score_player_2 += 1
-  #   @players.last
-  #
-  # elsif (player_1_input == "lizard" && player_2_input == "scissors")
-  #   @score_player_2 += 1
-  #   @players.last
 
      end
     end
